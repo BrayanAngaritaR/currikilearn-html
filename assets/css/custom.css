@@ -140,6 +140,20 @@ body {
    color: #003d90;
 }
 
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover, .dropdown-item:focus, .dropdown-item:hover {
+   border-color: #e9ecef #e9ecef #dee2e6;
+   isolation: isolate;
+   border: none;
+   background: #f4f9ff;
+}
+
+.checkmark-green{
+   background: #1ca766;
+   border-radius: 50%;
+   color: #fff;
+   padding: 4px;
+}
+
 /* Carousel */
 
 .stretch-card > .card {
