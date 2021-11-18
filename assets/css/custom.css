@@ -179,6 +179,10 @@ body {
    background: linear-gradient(to right, #003d90 0%, #0b70e4 100%);
 }
 
+.breadcrumb-item.active {
+   color: #014094;
+}
+
 .rotate-90 {
    transform: rotate(90deg);
 }
@@ -197,6 +201,11 @@ body {
    background-repeat: no-repeat;
    background-size: contain;
    background-image: url("/../assets/images/footer-bg.png");
+}
+
+.blue-footer{
+   background: linear-gradient(to right, #003d90 0%, #0b70e4 100%);
+   color: #fff;
 }
 
 @media (min-width: 992px) {
