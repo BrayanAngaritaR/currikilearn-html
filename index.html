@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+      <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+      <link href="assets/css/custom.css" rel="stylesheet" />
+
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+
+      <title>CurrikiLearn</title>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+               <img src="assets/images/logo.png" alt="" height="60" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <div class="form-group has-search mx-5">
+                  <form>
+                     <span class="lni lni-search form-control-feedback"></span>
+                     <input type="text" class="form-control border-0 search-border" placeholder="Search" />
+                  </form>
+               </div>
+
+               <ul class="ms-auto navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a href="#" class="nav-link">
+                        <i class="lni lni-envelope"></i>
+                     </a>
+                  </li>
+                  <li class="nav-item mx-lg-3">
+                     <a href="" class="nav-link">
+                        <i class="lni lni-alarm"></i>
+                     </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span><i class="lni lni-user"></i></span> Bonnie Brown
+                     </a>
+                     <ul class="dropdown-menu border-0 shadow-sm" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Account settings</a></li>
+                        <li><a class="dropdown-item" href="#">Help</a></li>
+                        <li><a class="dropdown-item" href="#">Logout</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+
+      <div class="container mt-5">
+         <div class="card border-0 shadow-sm pt-5 pb-5 px-5">
+            <div class="row">
+               <div class="col-sm-12 col-lg-6 my-auto">
+                  <div class="d-flex align-items-center">
+                     <div class="flex-shrink-0">
+                        <img src="assets/images/profile.png" class="user-avatar" alt="Profile picture" width="130" />
+                     </div>
+                     <div class="flex-grow-1 ms-3">
+                        <h4 class="user-title">Bonnie Brown</h4>
+                        <p class="user-subtitle font-regular">Explorer 11th Grade</p>
+                        <p class="xp-text">
+                           <span class="badge bg-light text-dark font-weight-400">
+                              <span class="xp-circle">5</span>
+                              <span class="mx-2">22,500XP</span>
+                           </span>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-sm-12 col-lg-6 my-auto">
+                  <div class="d-flex justify-content-around">
+                     <div class="text-center">
+                        <p class="m-0"><i class="icon-std icon-comet"></i></p>
+                        <p class="stat-counter m-0 font-regular text-gray font-weight-bold">11</p>
+                        <p class="item text-gray">Novice</p>
+                     </div>
+
+                     <div class="text-center">
+                        <p class="m-0"><i class="icon-std icon-moons"></i></p>
+                        <p class="stat-counter m-0 font-regular text-gray font-weight-bold">8</p>
+                        <p class="item text-gray">Explorer</p>
+                     </div>
+
+                     <div class="text-center">
+                        <p class="m-0"><i class="icon-std icon-planets"></i></p>
+                        <p class="stat-counter m-0 font-regular text-gray font-weight-bold">5</p>
+                        <p class="item text-gray">Expert</p>
+                     </div>
+
+                     <div class="text-center">
+                        <p class="m-0"><i class="icon-std icon-constellation"></i></p>
+                        <p class="stat-counter m-0 font-regular text-gray font-weight-bold">1</p>
+                        <p class="item text-gray">Master</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="card border-0 shadow-sm pt-5 pb-5 px-5 mt-4">
+            <nav class="d-flex justify-content-around">
+               <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+
+                  <a class="mx-5 nav-link active tabs-profile" id="nav-dashboard-tab" data-bs-toggle="tab" href="#nav-dashboard" role="tab" aria-controls="nav-dashboard" aria-selected="true"> <i class="lni lni-dashboard"></i> Dashboard </a>
+
+                  <a class="mx-5 nav-link tabs-profile" id="nav-missions-tab" data-bs-toggle="tab" href="#nav-missions" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="lni lni-rocket"></i> Missions</a>
+
+                  <a class="mx-5 nav-link tabs-profile" id="nav-laboratory-tab" data-bs-toggle="tab" href="#nav-laboratory" role="tab" aria-controls="nav-laboratory" aria-selected="false"><i class="lni lni-invention"></i> Laboratory</a>
+
+                  <a class="mx-5 nav-link tabs-profile" id="nav-community-tab" data-bs-toggle="tab" href="#nav-community" role="tab" aria-controls="nav-community" aria-selected="false"><i class="lni lni-users"></i> Community</a>
+               </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tabContent">
+               <div class="tab-pane fade show active" id="nav-dashboard" role="tabpanel" aria-labelledby="nav-dashboard-tab">
+                  <!-- Activities -->
+                  <div class="mt-5 d-flex justify-content-between">
+                     <h5 class="text-gray-dark">Activities</h5>
+                     <h5>
+                        <a href="">
+                           See all
+                        </a>
+                     </h5>
+                  </div>
+                  <div class="owl-carousel">
+                     <div class="item me-3">
+                        <img class="full-width img-fluid" src="assets/images/cards/image4.jpeg" alt="image" />
+
+                        <div class="caption mt-2">
+                           <div class="progress mb-2">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <h6 class="font-size-14 font-weight-400">
+                              <a href="#" class="text-gray text-decoration-none">Electronic Technology</a>
+                           </h6>
+                        </div>
+                     </div>
+
+                     <div class="item me-3">
+                        <img class="full-width img-fluid" src="assets/images/cards/image5.jpeg" alt="image" />
+
+                        <div class="caption mt-2">
+                           <div class="progress mb-2">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <h6 class="font-size-14 font-weight-400">
+                              <a href="#" class="text-gray text-decoration-none">Electronic Technology</a>
+                           </h6>
+                        </div>
+                     </div>
+
+                     <div class="item me-3">
+                        <img class="full-width img-fluid" src="assets/images/cards/image3.jpeg" alt="image" />
+
+                        <div class="caption mt-2">
+                           <div class="progress mb-2">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <h6 class="font-size-14 font-weight-400">
+                              <a href="#" class="text-gray text-decoration-none">Electronic Technology</a>
+                           </h6>
+                        </div>
+                     </div>
+
+                     <div class="item me-3">
+                        <img class="full-width img-fluid" src="assets/images/cards/image2.png" alt="image" />
+
+                        <div class="caption mt-2">
+                           <div class="progress mb-2">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <h6 class="font-size-14 font-weight-400">
+                              <a href="#" class="text-gray text-decoration-none">Electronic Technology</a>
+                           </h6>
+                        </div>
+                     </div>
+
+                     <div class="item me-3">
+                        <img class="full-width img-fluid" src="assets/images/cards/image1.jpeg" alt="image" />
+
+                        <div class="caption mt-2">
+                           <div class="progress mb-2">
+                              <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                           <h6 class="font-size-14 font-weight-400">
+                              <a href="#" class="text-gray text-decoration-none">Electronic Technology</a>
+                           </h6>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /Activities -->
+
+                  <!-- Recent files -->
+                  <div class="mt-5 d-flex justify-content-between">
+                     <h5 class="text-gray-dark">Recent files</h5>
+                     <h5>
+                        <a href="">
+                           See all
+                        </a>
+                     </h5>
+                  </div>
+                  <div class="owl-carousel">
+                     <div class="item me-3 shadow-sm p-3">
+                        <img src="assets/images/cards/image6.webp" class="img-fluid" />
+
+                        <h6 class="text-muted mt-3">Analytic geometry basics...</h6>
+
+                        <p class="text-muted mt-1">
+                           Opened 1 hour ago
+                        </p>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <img src="assets/images/cards/image6.webp" class="img-fluid" />
+
+                        <h6 class="text-muted mt-3">Analytic geometry basics...</h6>
+
+                        <p class="text-muted mt-1">
+                           Opened 1 hour ago
+                        </p>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <img src="assets/images/cards/image6.webp" class="img-fluid" />
+
+                        <h6 class="text-muted mt-3">Analytic geometry basics...</h6>
+
+                        <p class="text-muted mt-1">
+                           Opened 1 hour ago
+                        </p>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <img src="assets/images/cards/image6.webp" class="img-fluid" />
+
+                        <h6 class="text-muted mt-3">Analytic geometry basics...</h6>
+
+                        <p class="text-muted mt-1">
+                           Opened 1 hour ago
+                        </p>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <img src="assets/images/cards/image6.webp" class="img-fluid" />
+
+                        <h6 class="text-muted mt-3">Analytic geometry basics...</h6>
+
+                        <p class="text-muted mt-1">
+                           Opened 1 hour ago
+                        </p>
+                     </div>
+                  </div>
+                  <!-- /Recent files -->
+
+                  <!-- Community Publications -->
+                  <div class="mt-5 d-flex justify-content-between">
+                     <h5 class="text-gray-dark">Community Publications</h5>
+                     <h5>
+                        <a href="">
+                           See all
+                        </a>
+                     </h5>
+                  </div>
+                  <div class="owl-carousel">
+                     <div class="item me-3 shadow-sm p-3">
+                        <div class="d-flex align-items-center">
+                           <div class="flex-shrink-0">
+                              <img src="assets/images/profile.png" class="rounded-circle" alt="Profile picture" width="30" />
+                           </div>
+                           <div class="flex-grow-1 ms-3">
+                              <h6 class="m-0">Miss. Smith</h6>
+                              <p class="text-muted m-0">8 May</p>
+                           </div>
+                        </div>
+
+                        <p class="text-muted mt-3">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...
+                        </p>
+
+                        <div class="d-flex justify-content-between">
+                           <i class="lni lni-share-alt-1 rotate-180"></i>
+                           <i class="lni lni-heart"></i>
+                        </div>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <div class="d-flex align-items-center">
+                           <div class="flex-shrink-0">
+                              <img src="assets/images/profile.png" class="rounded-circle" alt="Profile picture" width="30" />
+                           </div>
+                           <div class="flex-grow-1 ms-3">
+                              <h6 class="m-0">Miss. Smith</h6>
+                              <p class="text-muted m-0">8 May</p>
+                           </div>
+                        </div>
+
+                        <p class="text-muted mt-3">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...
+                        </p>
+
+                        <div class="d-flex justify-content-between">
+                           <i class="lni lni-share-alt-1 rotate-180"></i>
+                           <i class="lni lni-heart"></i>
+                        </div>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <div class="d-flex align-items-center">
+                           <div class="flex-shrink-0">
+                              <img src="assets/images/profile.png" class="rounded-circle" alt="Profile picture" width="30" />
+                           </div>
+                           <div class="flex-grow-1 ms-3">
+                              <h6 class="m-0">Miss. Smith</h6>
+                              <p class="text-muted m-0">8 May</p>
+                           </div>
+                        </div>
+
+                        <p class="text-muted mt-3">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...
+                        </p>
+
+                        <div class="d-flex justify-content-between">
+                           <i class="lni lni-share-alt-1 rotate-180"></i>
+                           <i class="lni lni-heart"></i>
+                        </div>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <div class="d-flex align-items-center">
+                           <div class="flex-shrink-0">
+                              <img src="assets/images/profile.png" class="rounded-circle" alt="Profile picture" width="30" />
+                           </div>
+                           <div class="flex-grow-1 ms-3">
+                              <h6 class="m-0">Miss. Smith</h6>
+                              <p class="text-muted m-0">8 May</p>
+                           </div>
+                        </div>
+
+                        <p class="text-muted mt-3">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...
+                        </p>
+
+                        <div class="d-flex justify-content-between">
+                           <i class="lni lni-share-alt-1 rotate-180"></i>
+                           <i class="lni lni-heart"></i>
+                        </div>
+                     </div>
+
+                     <div class="item me-3 shadow-sm p-3">
+                        <div class="d-flex align-items-center">
+                           <div class="flex-shrink-0">
+                              <img src="assets/images/profile.png" class="rounded-circle" alt="Profile picture" width="30" />
+                           </div>
+                           <div class="flex-grow-1 ms-3">
+                              <h6 class="m-0">Miss. Smith</h6>
+                              <p class="text-muted m-0">8 May</p>
+                           </div>
+                        </div>
+
+                        <p class="text-muted mt-3">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...
+                        </p>
+
+                        <div class="d-flex justify-content-between">
+                           <i class="lni lni-share-alt-1 rotate-180"></i>
+                           <i class="lni lni-heart"></i>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- /Community Publications -->
+               </div>
+
+               <div class="tab-pane fade" id="nav-missions" role="tabpanel" aria-labelledby="nav-missions-tab">
+                  <h5 class="mt-5">Missions tab</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+
+               <div class="tab-pane fade" id="nav-laboratory" role="tabpanel" aria-labelledby="nav-laboratory-tab">
+                  <h5 class="mt-5">Laboratory tab</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+
+               <div class="tab-pane fade" id="nav-community" role="tabpanel" aria-labelledby="nav-community-tab">
+                  <h5 class="mt-5">Community tab</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="footer-bg mt-5"></div>
+
+      <footer class="footer mt-n5">
+         <div class="align-text-bottom">
+            <div class="container">
+               <ul class="list-inline d-flex justify-content-between">
+                  <li class="list-inline-item">
+                     <div class="dropdown">
+                        <a class="text-decoration-none text-white dropdown-toggle largest-font-regular" data-bs-toggle="dropdown" aria-expanded="false" role="button" id="dropdownMenuLink" href="#">
+                           <i class="lni lni-world"></i> <i class="fa fa-angle-down"></i>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                           <li><a class="dropdown-item" href="#">ES</a></li>
+                           <li><a class="dropdown-item" href="#">EN</a></li>
+                           <li><a class="dropdown-item" href="#">FR</a></li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="list-inline-item"><a class="text-white largest-font-regular text-decoration-none" href="#">About</a></li>
+                  <li class="list-inline-item"><a class="text-white largest-font-regular text-decoration-none" href="#">Courses</a></li>
+                  <li class="list-inline-item"><a class="text-white largest-font-regular text-decoration-none" href="#">Support</a></li>
+                  <li class="list-inline-item"><a class="text-white largest-font-regular text-decoration-none" href="#">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <hr class="text-white mt-3 mb-3" />
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 col-lg-4">
+                     <p class="text-white font-regular">Copyright © 2022 Currki. All rights reserved.</p>
+                  </div>
+                  <div class="col-sm-12 col-lg-8">
+                     <a class="ml-3 ml-md-80 text-white font-regular text-decoration-none" href="#">Terms of Use</a>
+                     <a class="ml-3 ml-md-4 ms-5 font-regular text-white text-decoration-none" href="#">Privacy Policy</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+      <script type="text/javascript">
+         $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+               // autoPlay: 10000,
+               items: 4,
+               itemsDesktop: [1199, 3],
+               itemsDesktopSmall: [979, 3],
+               center: true,
+               nav: true,
+               loop: true,
+               responsive: {
+                  600: {
+                     items: 4,
+                  },
+               },
+            });
+         });
+      </script>
+   </body>
+</html>

@@ -1,0 +1,206 @@
+body {
+   background-color: #eee;
+}
+
+.btn-theme-primary{
+   background: #003d90;
+   background: -moz-linear-gradient(left, #003d90 0%, #0b70e4 100%);
+   background: -webkit-linear-gradient(left, #003d90 0%, #0b70e4 100%);
+   background: linear-gradient(to right, #003d90 0%, #0b70e4 100%);
+   color: #fff;
+   border-radius: 25px;
+}
+
+.btn-theme-primary:hover{
+   color: #fff;
+   background: #003d90;
+   background: -moz-linear-gradient(left, #0b70e4 0%, #003d90 100%);
+   background: -webkit-linear-gradient(left, #0b70e4 0%, #003d90 100%);
+   background: linear-gradient(to right, #0b70e4 0%, #003d90 100%);
+}
+
+/* Font Weight, Colors and Sizes */
+.font-weight-bold {
+   font-weight: bolder;
+}
+
+.font-weight-400 {
+   font-weight: 400;
+}
+
+.font-regular {
+   font-size: 1.2rem;
+}
+
+.largest-font-regular {
+   font-size: 1.4rem;
+}
+
+.text-gray {
+   color: #7e7e7e;
+}
+
+.text-gray-dark {
+   color: #555;
+}
+
+/* Search form */
+.has-search .form-control {
+   padding-left: 2.375rem;
+   background-color: #efefef;
+}
+
+.has-search .form-control-feedback {
+   position: absolute;
+   z-index: 2;
+   display: block;
+   width: 2.375rem;
+   height: 2.375rem;
+   line-height: 2.375rem;
+   text-align: center;
+   pointer-events: none;
+   color: #aaa;
+}
+
+.search-border {
+   border-radius: 50px;
+   min-width: 280px;
+}
+
+/* User profile */
+.user-avatar {
+   border: 6px solid #ff9e1f;
+   border-radius: 50%;
+}
+
+.xp-circle {
+   border: 2px solid #084298;
+   border-radius: 50%;
+   padding: 5px 9px;
+}
+
+.xp-text {
+   font-size: 1.2rem;
+}
+
+.user-title {
+   font-size: 2rem;
+   letter-spacing: 2px;
+   color: #4a4a4a;
+}
+
+.user-subtitle {
+   color: #7e7e7e;
+}
+
+.icon-std {
+   display: inline-block;
+   width: 41px;
+   height: 42px;
+   background-image: url(../images/icon-std.png);
+   background-repeat: no-repeat;
+}
+
+.icon-comet {
+   background-position: 0 33.333333%;
+   background-size: 101.886792%;
+}
+
+.icon-moons {
+   background-position: 0 66.666667%;
+   background-size: 101.886792%;
+}
+
+.icon-planets {
+   background-position: 0 100%;
+   background-size: 101.886792%;
+}
+
+.icon-constellation {
+   background-position: 0 0%;
+   background-size: 100%;
+}
+
+/**/
+
+.nav-fill {
+   flex: 1 1 auto;
+   text-align: center;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs > a {
+   color: #7e7e7e;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+   border-color: #fff;
+   border-bottom: 3px solid #003d90 !important;
+   color: #003d90;
+}
+
+/* Carousel */
+
+.stretch-card > .card {
+   width: 100%;
+   min-width: 100%;
+}
+
+.owl-carousel .item {
+   margin: 3px;
+}
+
+.owl-carousel .item img.full-width {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.owl-carousel .item {
+   margin: 3px;
+}
+
+.owl-carousel {
+   margin-bottom: 15px;
+}
+
+.progress {
+   height: 0.75rem;
+   border-radius: 1rem;
+   background-color: #ddd;
+}
+
+.progress-bar {
+   border-radius: 1rem;
+   background: #003d90;
+   background: -moz-linear-gradient(left, #003d90 0%, #0b70e4 100%);
+   background: -webkit-linear-gradient(left, #003d90 0%, #0b70e4 100%);
+   background: linear-gradient(to right, #003d90 0%, #0b70e4 100%);
+}
+
+.rotate-90 {
+   transform: rotate(90deg);
+}
+
+.rotate-180 {
+   transform: rotate(180deg);
+}
+
+.footer {
+   background: rgb(172, 173, 183);
+   background: linear-gradient(180deg, rgba(172, 173, 183, 1) 0%, rgba(174, 174, 177, 1) 100%);
+}
+
+.footer-bg {
+   min-height: 750px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-image: url("/../assets/images/footer-bg.png");
+}
+
+@media (min-width: 992px) {
+   .search-border {
+      min-width: 380px;
+   }
+}
