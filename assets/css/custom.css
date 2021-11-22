@@ -154,6 +154,17 @@ body {
    padding: 4px;
 }
 
+.checkmark-gray {
+   background: #e3e3e3;
+   border-radius: 50%;
+   color: #000;
+   padding: 4px;
+}
+
+.no-viewed-activity {
+   opacity: 20%;
+}
+
 /* Carousel */
 
 .stretch-card > .card {
@@ -222,8 +233,52 @@ body {
    color: #fff;
 }
 
+/*
+================================
+Responsive
+================================*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) {
+   .footer-bg{
+      display: none;
+   }
+
+   .footer{
+      padding-top: 10px;
+      margin-top: 20px;
+   }
+
+   .footer-bottom{
+      text-align: center;
+   }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px and max-width: 991px) {
+   .footer-bg{
+      min-height: 410px;
+   }
+}
+
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
    .search-border {
       min-width: 380px;
    }
+
+   .footer-bg{
+      min-height: 710px;
+   }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
 }
